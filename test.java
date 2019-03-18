@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.*;
 
 class test {
-//	public static void regexMatcher(String s) {
+	// Returns extracted information from tweet JSONS from a given file
 	public static tweetJSON regexMatcher(String s) {
 		tweetJSON tweet = new tweetJSON();
 		String tweetjson,user;

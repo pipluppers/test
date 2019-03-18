@@ -24,8 +24,7 @@ class Main {
 			System.out.println("\tHashtags: " + tweet.hashtags.get(i));
 			System.out.println("\tName: " + tweet.name.get(i));
 			System.out.println("\tScreen Name: " + tweet.screenname.get(i));
-			System.out.println("\tLocation " + tweet.location.get(i));
-			
+			System.out.println("\tLocation " + tweet.location.get(i));	
 			++x;
 		}
 	}
